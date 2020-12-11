@@ -5,9 +5,37 @@ const app = express();
 app.use(express.json()); // adding middleware to parse JSON objects
 
 const albums = [
-    {id: 1, albumTitle: '', artist: '', trackList: '', genre: '', YOR: ''},
-    {id: 2, albumTitle: '', artist: '', trackList: '', genre: '', YOR: ''},
-    {id: 3, albumTitle: '', artist: '', trackList: '', genre: '', YOR: ''}
+    {id: 1, 
+        albumTitle: 'Die Lit', 
+        artist: 'Play boi Carti',
+        trackList: 'DieLit'
+            + 'Long time - Intro' 
+            + 'RIP'
+            + 'Lean 4 real'
+            + 'Old Money'
+            + 'Yung lit', 
+        genre: 'Rap', 
+        YOR: 'October 2, 2020'},
+    {id: 2, 
+        albumTitle: 'DAMN', 
+        artist: 'Kendrick Lamar', 
+        trackList: 'DAMN' 
+        + 'BLOOD.'
+        + 'DNA.'
+        + 'FEEL.'
+        + 'YAH.',  
+        genre: 'Rap', 
+        YOR: 'August 27, 2020'},
+    {id: 3, 
+        albumTitle: 'Reckless', 
+        artist: 'NAV',
+        trackList: 'Perfect Timing'
+        + 'Myself'
+        + 'Champion'
+        + 'Turks'
+        + 'Habits', 
+        genre: 'Rap', 
+        YOR: 'October 7, 2020'}
 ];
 
 app.get('/', (req,res) => {
