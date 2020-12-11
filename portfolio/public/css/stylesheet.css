@@ -12,7 +12,7 @@ nav{
   justify-content: flex-start;
   flex-wrap: wrap;
   height: 150px;
-  color: white;
+  color: grey;
 }
 
 .userPic{
@@ -21,7 +21,7 @@ nav{
 }
 
 .userDetails{
-  background-color: #00A7DB;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -41,21 +41,21 @@ nav{
 }
 
 .home{
-  background-color: #00C1EA;
+  background-color: lightblue;
 }
 
 .projects{
-  background-color: #94D401;
+  background-color:  lightseagreen;
 }
 
 .contact{
-  background-color: #61B100;
+  background-color: lightseagreen;
 }
 
 .home,
 .projects,
 .contact{
-  color: white;
+  color: lightyellow;
   display: flex;
   justify-content: center;
   align-items: center;
