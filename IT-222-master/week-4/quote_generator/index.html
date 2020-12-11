@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Styles & JS -->
+  <script src="quoteGenerator.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Random Quote Generator</title>
+</head>
+<body>
+  <div class="container center">
+    <h3 class="center">Random Quote</h3>
+    <div id="quoteDisplay"></div>
+    <br>
+    <button id="quoteButton" onclick="genQuote()">Generate</button>
+    <br><br>
+    <div>
+      <textarea type="text" id="userinput" placeholder="Write your quote here!"></textarea>
+      <br><br>
+      <button id="quoteButton2" onclick="addQuote()">Add Quote</button>
+    </div>
+  </div>
+</body>
+</html>
